@@ -4,7 +4,7 @@ class Dog
   @@all = []
   def initialize(name)
     @name = name 
-    @@all << self 
+    name.save 
   end 
   def self.all
     @@all.each do |dog|
@@ -14,7 +14,4 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-  def self.print_all
-    @@all.print
-  end 
 end 
