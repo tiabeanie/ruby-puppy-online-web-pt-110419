@@ -1,10 +1,10 @@
 # Add your code here
 class Dog 
   attr_accessor :name 
-  dog.name.new :save 
   @@all = []
   def initialize(name)
     @name = name 
+    name.new :save
     @@all << self 
   end 
   def self.all
