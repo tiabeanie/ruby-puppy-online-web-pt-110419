@@ -4,7 +4,6 @@ class Dog
   @@all = []
   def initialize(name)
     @name = name 
-    name.new :save
     @@all << self 
   end 
   def self.all
