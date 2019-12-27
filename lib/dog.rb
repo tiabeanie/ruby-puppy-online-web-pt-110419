@@ -11,9 +11,10 @@ class Dog
       puts dog.name
     end 
   end 
+  def self.clear_all
   def self.print_all
     @@all.each do |dog| 
-      print dog.name ("/n")
+      print dog.name
     end 
   end 
 end 
