@@ -7,4 +7,5 @@ class Dog
     @@all << self 
   end 
   def self.all
-    @@all.each 
+    @@all.each do |dog|
+    puts 
